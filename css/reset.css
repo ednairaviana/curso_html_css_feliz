@@ -18,3 +18,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+body {
+    font-family: 'Fira Code', monospace;
+}

@@ -1,0 +1,32 @@
+.action {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+    display: inline-flex; 
+    align-items: center;
+}
+
+.action {
+    transition: all 0.3s;
+}
+
+.action::before {
+    content: "";
+    display: inline-block;
+    background-color: #F25A70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+
+.action:hover {
+    text-shadow: 2px 2px 0px #000;
+}
+
+.action:hover::before {
+    border-radius: 50%;
+    box-shadow: 2px 2px 0px #000;
+}
