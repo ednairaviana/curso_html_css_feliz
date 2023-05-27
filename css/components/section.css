@@ -10,3 +10,7 @@
 .section .main-title {
     margin-bottom: 30px;
 }
+
+.section.-section_project {
+    background-color: #000;
+}

@@ -1,0 +1,9 @@
+.wrapper-projects {
+    display: flex;
+    margin: 60px auto;
+    justify-content: space-evenly;
+}
+
+.wrapper-projects .btn-project:hover {
+    width: 300px;
+}
