@@ -1,8 +1,8 @@
-.logo {
+.main-logo {
     box-shadow: 2px 2px 0px #000;
     transition: all 0.2s;
 }
 
-.logo:hover {
+.main-logo:hover {
     box-shadow: 1px 1px 1px #000;
 }
