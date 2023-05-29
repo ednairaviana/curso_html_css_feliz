@@ -1,0 +1,12 @@
+.main-article {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.main-article p {
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 300;
+    text-align: justify;
+}
