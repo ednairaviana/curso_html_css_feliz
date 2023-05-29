@@ -1,4 +1,4 @@
-.action {
+.main-action {
     color: #FFF;
     font-weight: 500;
     font-size: 20px;
@@ -8,11 +8,11 @@
     align-items: center;
 }
 
-.action {
+.main-action {
     transition: all 0.3s;
 }
 
-.action::before {
+.main-action::before {
     content: "";
     display: inline-block;
     background-color: #F25A70;
@@ -22,11 +22,11 @@
     transition: all 0.3s;
 }
 
-.action:hover {
+.main-action:hover {
     text-shadow: 2px 2px 0px #000;
 }
 
-.action:hover::before {
+.main-action:hover::before {
     border-radius: 50%;
     box-shadow: 2px 2px 0px #000;
 }
